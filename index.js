@@ -1,6 +1,6 @@
 const express = require("express");
 const { scrapeLogic } = require("./scrapeLogic");
-const { screenShot } = require("./screenshot");
+const { screenShot } = require("./screenShot");
 const { login } = require("./loginN");
 const app = express();
 
