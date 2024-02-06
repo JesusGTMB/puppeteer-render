@@ -37,7 +37,7 @@ const login = async (req, res) => {
     console.log(" boton clicked. Login successful");
 
     // Esperar a que se complete el inicio de sesión (ajustar según sea necesario)
-    await page.waitForNavigation( { waitUntil: 'networkidle0', timeout: 10000 } );
+    await page.waitForNavigation( { waitUntil: 'networkidle0', timeout: 40000 } );
 
     // Opcional: tomar una captura de pantalla después del inicio de sesión
     await page.screenshot({ path: 'login_success.png' });
